@@ -392,7 +392,37 @@
 		text-align: center;
 		width: 100%;
 	}
+
+/* Twich And Snap Main */
+
+.main-size{
+	padding:10px;
+	margin:5px;
+	border-radius:6px;
+	border:1px solid black;
+}
+
+.main-div{
+	margin-top:15px;
 	
+}
+
+.main-a{
+	border-bottom:none;
+}
+
+.twitch-main{
+	background-color:#9146ff;
+	color:black;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.snap-main{
+	background-color: #FFFC00;
+	color:black;
+	font-family:"Helvetica";
+}
+
 /* Tooltip */
     .tooltip {
       position: relative;
@@ -475,6 +505,14 @@
 
 /* Resize Logic*/
 
+@media (max-width:560px) {
+	
+	.main-size{
+		padding:7px;
+		display:block;
+	}
+}
+
 @media (max-width:480px) {
 	#header nav li{
 		height: 4em;
@@ -486,7 +524,12 @@
 		height: 2em;
 		line-height: 2em;
 	}
+
 	
+	.main-size{
+		padding:7px;
+		display:block;
+	}
 }
 
 @media (max-width:370px) {
@@ -502,6 +545,11 @@
 	}
 	#header p {
 		font-size: .9em;
+	}
+	
+	.main-size{
+		padding:5px;
+		display:block;
 	}
 }
 
