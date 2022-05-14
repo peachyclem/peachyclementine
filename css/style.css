@@ -103,7 +103,7 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		/* Set your background with this */
-		background: deeppink url("images/bg3.png") bottom left;
+		background: #F59BAD;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -399,7 +399,7 @@
 .main-size{
 	padding:10px;
 	margin:5px;
-	border-radius:6px;
+	border-radius:33px;
 	border:1px solid black;
 }
 
@@ -414,13 +414,13 @@
 }
 
 .twitch-main{
-	background-color:#9146ff;
+	background-color:#6e82b7;
 	color:black;
 	font-family: system-ui;
 }
 
 .snap-main{
-	background-color: #FFFC00;
+	background-color: #f8e8d8;
 	color:black;
 	font-family: system-ui;
 }
@@ -510,7 +510,6 @@
 @media (max-width:560px) {
 	
 	.main-size{
-		padding:7px;
 		display:block;
 	}
 }
@@ -529,7 +528,6 @@
 
 	
 	.main-size{
-		padding:7px;
 		display:block;
 	}
 }
@@ -555,6 +553,6 @@
 	}
 }
 
-.loading{
-	display:none;
+.done-loading{
+	display:block!important;
 }
