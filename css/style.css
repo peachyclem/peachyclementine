@@ -532,6 +532,18 @@
 	}
 }
 
+@media (max-width:437px) {
+	h1.header{
+		transform:scale(.8);
+	}
+}
+
+@media (max-width:373px) {
+	h1.header{
+		transform:scale(.7);
+	}
+}
+
 @media (max-width:370px) {
 	#header nav li{
 		height: 3.5em;
@@ -552,6 +564,7 @@
 		display:block;
 	}
 }
+
 
 .done-loading{
 	display:block!important;
