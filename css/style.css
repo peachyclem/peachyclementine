@@ -533,14 +533,20 @@
 }
 
 @media (max-width:437px) {
-	h1.header{
-		transform:scale(.8);
+	h1.header img{
+		max-height:90px;
 	}
 }
 
 @media (max-width:373px) {
-	h1.header{
-		transform:scale(.7);
+	h1.header img{
+		max-height:80px;
+	}
+}
+
+@media (max-width:280px) {
+	h1.header img{
+		max-height:70px;
 	}
 }
 
